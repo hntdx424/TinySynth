@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- Lets `dotnet build` succeed on non-Windows CI / agents. -->
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+</Project>
