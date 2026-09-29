@@ -65,3 +65,7 @@ TinySynth/
 ```
 
 DLS (`.dls`) is offered in the SoundFont dialog so typical libraries are visible, but MeltySynth only loads SF2. Selecting a DLS file shows a clear message and does not change the current font.
+
+## Android
+
+The same player is available as an Android app in [`android/`](android/). It renders MIDI with a bundled SoundFont synthesizer (not the system MIDI player) and includes the Player and Channel instruments screens. Build and install steps are in [android/README.md](android/README.md).
