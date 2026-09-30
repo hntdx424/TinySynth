@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TinySynth</string>
+    <string name="tab_player">Player</string>
+    <string name="tab_channels">Channel instruments</string>
+    <string name="open_midi">Open MIDI…</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="soundfont">SoundFont…</string>
+    <string name="midi_caption">MIDI</string>
+    <string name="soundfont_caption">SoundFont</string>
+    <string name="no_midi">No MIDI file loaded</string>
+    <string name="no_soundfont">No SoundFont loaded</string>
+    <string name="time_zero">0:00 / 0:00</string>
+    <string name="time_pattern">%1$s / %2$s</string>
+    <string name="from_midi_file">(from MIDI file)</string>
+    <string name="channel_label">Channel %1$d</string>
+    <string name="channel_label_drums">Channel %1$d (drums)</string>
+    <string name="channels_hint">Assign an instrument to any of the 16 MIDI channels. A selection remaps that channel\'s program and bank for the current or next playback. Channel 10 is the standard drum channel.</string>
+</resources>
