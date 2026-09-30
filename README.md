@@ -2,6 +2,8 @@
 
 A small Windows MIDI player that renders Standard MIDI files through a SoundFont 2 (`.sf2`) synthesizer. Playback uses [MeltySynth](https://github.com/sinshu/meltysynth) for SF2 synthesis and [NAudio](https://github.com/naudio/NAudio) for audio output — not the Windows MIDI mapper.
 
+This .NET 8 app does not run on Windows XP, Vista, or 7. A separate 32-bit build for those systems is in [`legacy/`](legacy/README.md).
+
 ## Requirements
 
 - Windows
